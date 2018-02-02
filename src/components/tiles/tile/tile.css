@@ -1,0 +1,112 @@
+.tile__background {
+  display: block;
+  max-width: 260px;
+  margin: 10px auto 10px auto;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.tile__image {
+  min-width: 260px;
+  min-height: 200px;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 5px;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center bottom;
+}
+
+.thumbs__up{
+  min-height: .7em;
+  min-width: .7em;
+  background-image: url('../../assets/images/thumbs-up.png');
+  display: inline-block;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+}
+
+.thumbs__down{
+  min-height: .7em;
+  min-width: .7em;
+  background-image: url('../../assets/images/thumbs-down.png');
+  display: inline-block;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  margin-bottom: -3px;
+}
+
+.tile__title{
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 0px;
+  padding-top: 0px;
+  color: #44566a;
+  font-size: 1em;
+}
+
+.tile__fivestar{
+  font-size: .7em;
+  color: #44566a;
+}
+
+.tile__rating{
+  margin-top: -10px;
+}
+
+
+@media screen and (max-width: 1122px) {
+  .tile__background {
+    display: block;
+    min-width: 300px;
+    margin: 10px auto 10px auto;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  .tile__image {
+    min-width: 300px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 5px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center bottom;
+  }
+}
+
+@media screen and (max-width: 929px) {
+  .tile__background {
+    display: block;
+    min-width: 45%;
+    margin: 10px auto 10px auto;
+    transition: 0.3s;
+    border-radius: 5px;
+
+  }
+  .tile__image {
+    min-width: 45%;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 5px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center bottom;
+  }
+}
+
+@media screen and (max-width: 646px) {
+  .tile__background {
+    display: block;
+    min-width: 90%;
+    margin: 10px auto 10px auto;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  .tile__image {
+    min-width: 90%;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 5px;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center bottom;
+  }
+}

@@ -1,0 +1,53 @@
+.loadButton__body{
+  margin-bottom: 40px;
+}
+
+.loadButton__content{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.scroll {
+  margin-top: -40px;
+  float: right;
+}
+
+.load {
+width: 100%;
+text-align: center;
+}
+
+.loadButton--load--more {
+  width: 200px;
+  background-color: #5e728c;
+  margin: auto;
+  color: white;
+  padding: 10px 0 10px 0;
+}
+
+.loadButton--load--more:hover {
+  width: 200px;
+  background-color: #5e728c;
+  margin: auto;
+  cursor: pointer;
+}
+
+.scroll--button {
+  width: 40px;
+  font-size: 1.3em;
+  background-color: #5e728c;
+  margin: auto;
+  color: white;
+  padding: 10px 0 5px 0;
+}
+
+.scroll--button:hover {
+  width: 40px;
+  font-size: 1.3em;
+  background-color: #5e728c;
+  margin: auto;
+  color: white;
+  padding: 10px 0 5px 0;
+  cursor: pointer;
+}

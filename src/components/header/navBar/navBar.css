@@ -1,0 +1,225 @@
+.navBar{
+  height: 50px;
+  background-color: #f4f5f6;
+  justify-content: space-between;
+}
+
+.navBar__navTitles{
+  min-width: 200px;
+  list-style: none;
+  text-align: left;
+  line-height: 50px;
+  margin-left: 20px;
+  padding-left: 0;
+}
+
+.navBar__navTitles li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 1em;
+  color: #44566a;
+  background-color: transparent;
+  max-width: 100px;
+}
+
+.navBar__navTitles li a:hover {
+  color: #2fcac9;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 1em;
+}
+
+.dropdown-menu {
+  border-top: 2px solid #30cbca;
+  width: 400px;
+  border-radius: 0 0 4px 4px;
+
+}
+.dropdown-menu li a{
+  display: inline-block;
+}
+.dropdown-menu li {
+  line-height: 1em;
+}
+
+.dropdown__custom{
+  color: #44566a;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+.dropdown__custom:active{
+  color: #30cbca;
+  border: none;
+  outline: none;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+.dropdown__custom:hover{
+  color: #30cbca;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+.btn-group.open .dropdown-toggle{
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+#Yoga{
+  border:none;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  margin-bottom: 0px;
+}
+#Yoga:focus{
+  color: #30cbca;
+  border:none;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  margin-bottom: 0px;
+}
+
+#MyGaia{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+#MyGaia:focus{
+  color: #30cbca;
+  border:none;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  margin-bottom: 0px;
+}
+#Transformation{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+#Transformation:focus{
+  color: #30cbca;
+  border:none;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  margin-bottom: 0px;
+}
+#SeekingTruth{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+#SeekingTruth:focus{
+  color: #30cbca;
+  border:none;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  margin-bottom: 0px;
+}
+
+#FilmsDocs{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+#FilmsDocs:focus{
+  color: #30cbca;
+  border:none;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  margin-bottom: 0px;
+}
+
+#Topics{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+#Topics:focus{
+  color: #30cbca;
+  border:none;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  margin-bottom: 0px;
+}
+.navTile--image1{
+  float: right;
+  margin: 10px 10px 0 0;
+  background-image: url('../../assets/images/valley3copy.jpeg');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  width: 200px;
+  height: 150px;
+}
+.navTile--image2{
+  float: right;
+  margin: 10px 10px 0 0;
+  background-image: url('../../assets/images/canyoncopy.jpg');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  width: 200px;
+  height: 150px;
+}
+.navTile--image3{
+  float: right;
+  margin: 10px 10px 0 0;
+  background-image: url('../../assets/images/CherryBlossomcopy.jpg');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  width: 200px;
+  height: 150px;
+}
+.navTile--image4{
+  float: right;
+  margin: 10px 10px 0 0;
+  background-image: url('../../assets/images/lakecopy.jpeg');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  width: 200px;
+  height: 150px;
+}
+.navTile--image5{
+  float: right;
+  margin: 10px 10px 0 0;
+  background-image: url('../../assets/images/lily3copy.jpeg');
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  width: 200px;
+  height: 150px;
+}

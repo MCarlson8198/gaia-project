@@ -1,0 +1,108 @@
+.footer__body{
+  background-color: #f4f5f6;
+  padding: 20px 20px 20px 20px;
+}
+
+.top__plate{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.top__list{
+display: inline-block;
+list-style-type: none;
+text-align: left;
+color: #44566a;
+font-family: 'Roboto', sans-serif;
+text-decoration: none;
+}
+.top__list a{
+display: inline-block;
+list-style-type: none;
+text-align: left;
+color: #44566a;
+font-family: 'Roboto', sans-serif;
+text-decoration: none;
+}
+
+.top--title{
+  font-size: 1.2em;
+}
+
+.top__item{
+  font-size: .8em;
+  margin: 15px 0 15px 0;
+}
+.top__item a:hover{
+  text-decoration: underline;
+}
+
+.bottom__plate{
+  text-align: left;
+}
+.bottom--title{
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #44566a;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bottom__icon--plate{
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon {
+  display: inline-block;
+}
+
+.fb--icon{
+  background-image: url('../../components/assets/images/FBIcon.png');
+  width: 40px;
+  height: 40px;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center bottom;
+  display: inline-block;
+  margin:0 5px 0 5px;
+}
+.twitter--icon{
+  background-image: url('../../components/assets/images/TwitterIcon.png');
+  width: 40px;
+  height: 40px;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center bottom;
+  display: inline-block;
+  margin:0 5px 0 5px;
+}
+.insta--icon{
+  background-image: url('../../components/assets/images/InstaIcon.png');
+  width: 40px;
+  height: 40px;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center bottom;
+  display: inline-block;
+  margin:0 5px 0 5px;
+}
+.youtube--icon{
+  background-image: url('../../components/assets/images/YTIcon.png');
+  width: 40px;
+  height: 40px;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center bottom;
+  display: inline-block;
+  margin:0 5px 0 5px;
+}
+.pinterest--icon{
+  background-image: url('../../components/assets/images/PinIcon.png');
+  width: 40px;
+  height: 40px;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center bottom;
+  display: inline-block;
+  margin:0 5px 0 5px;
+}

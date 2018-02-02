@@ -1,0 +1,63 @@
+.top__board{
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  max-height: 60px;
+  border-bottom: 1px solid #a8adb4;
+  padding-bottom: 5px;
+}
+
+.gaia--name{
+  color: #2fcac9;
+  padding: 5px 0 0 35px;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 2.2em;
+}
+.gaia--name:hover{
+  color: #2fcac9;
+  padding: 5px 0 0 35px;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 2.2em;
+  text-decoration: none;
+}
+
+.person--icon{
+  display: inline-block;
+  background-image: url('../../../components/assets/images/person-icon.png');
+  height: 28px;
+  width: 28px;
+  background-size: cover;
+  margin: 15px 40px -8px 10px;
+}
+
+.user__name {
+  font-family: sans-serif;
+  color: #44566a;
+  font-size: .85em;
+}
+
+.join{
+  font-family: sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  width: 130px;
+  height: 30px;
+  border-radius: 8px;
+  background: linear-gradient(45deg,#029f9f,#280b58);
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+  margin-right: 40px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 590px) {
+  .join{
+    display: none;
+  }
+}

@@ -1,0 +1,36 @@
+.board {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  clear: both;
+}
+
+.tiles__title{
+  padding-top: 20px;
+  text-align: left;
+  margin-left: 10px;
+  color: #44566a;
+}
+
+#title--span{
+    font-size: 1.5em;
+}
+
+.tiles__title-span{
+  clear: both;
+  display: inline-block;
+}
+
+@media screen and (max-width: 400px) {
+  .tiles__title{
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 10px;
+    color: #44566a;
+    font-size: 1em;
+  }
+  #title--span{
+      font-size: 1em;
+  }
+}

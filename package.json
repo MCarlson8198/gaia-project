@@ -1,0 +1,27 @@
+{
+  "name": "gaia-coding-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-fontawesome": "^1.6.1",
+    "react-scripts": "1.1.0",
+    "react-scroll-to-element": "^0.2.0"
+  },
+  "scripts": {
+    "start": "PORT=8080 react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --coverage",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {},
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  }
+}
